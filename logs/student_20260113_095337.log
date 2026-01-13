@@ -1,0 +1,18 @@
+
+> student@0.1.0 dev
+> next dev -H 0.0.0.0 -p 3001 -H 0.0.0.0 -p 3001
+
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://0.0.0.0:3001
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 3.6s
+⚠ Cross origin request detected from devwiz to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+○ Compiling /dashboard ...
+ GET /api/health 200 in 3.4s (compile: 2.8s, render: 517ms)
+ GET /login 200 in 5.6s (compile: 3.1s, render: 2.5s)
+ GET /dashboard 200 in 7.7s (compile: 6.1s, render: 1557ms)
+ GET /api/exams/available 200 in 307ms (compile: 246ms, render: 61ms)
